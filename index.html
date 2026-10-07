@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
@@ -119,12 +119,11 @@
   <section class="section archive" id="archive">
     <div class="section__head">
       <h2 class="title">Selected <em class="accent">work</em>,<br>filed by case.</h2>
-      <p class="section__note">Four projects, newest first. Click a folder to open it.</p>
     </div>
 
     <div class="shelf">
       <button class="folder" data-case="ct" style="--i:0">
-        <span class="folder__tab">CASE 04 · 2026</span>
+        <span class="folder__tab">CASE 4</span>
         <span class="folder__paper"><img src="assets/img/ct_seg_001.jpg" alt="" loading="lazy"></span>
         <span class="folder__body">
           <span class="folder__status">In progress</span>
@@ -134,7 +133,7 @@
       </button>
 
       <button class="folder" data-case="pollen" style="--i:1">
-        <span class="folder__tab">CASE 03 · 2025–26</span>
+        <span class="folder__tab">CASE 3</span>
         <span class="folder__paper"><img src="assets/img/pollen_detections.jpg" alt="" loading="lazy"></span>
         <span class="folder__body">
           <span class="folder__status">MSc thesis · paper in submission</span>
@@ -144,7 +143,7 @@
       </button>
 
       <button class="folder" data-case="safecam" style="--i:2">
-        <span class="folder__tab">CASE 02 · 2026</span>
+        <span class="folder__tab">CASE 2</span>
         <span class="folder__paper"><img src="assets/img/safecam_snapshot.jpg" alt="" loading="lazy"></span>
         <span class="folder__body">
           <span class="folder__status">Open source</span>
@@ -154,7 +153,7 @@
       </button>
 
       <button class="folder" data-case="passport" style="--i:3">
-        <span class="folder__tab">CASE 01 · 2026</span>
+        <span class="folder__tab">CASE 1</span>
         <span class="folder__paper"><img src="assets/img/hp_labs.jpg" alt="" loading="lazy"></span>
         <span class="folder__body">
           <span class="folder__status">Big Berlin Hackathon</span>
@@ -265,7 +264,7 @@
 
 <!-- Case files: content for each folder -->
 <template id="case-ct">
-  <p class="label">Case 04 · Aug 2026 — present · School of Medicine, Nazarbayev University</p>
+  <p class="label">Case 4 · Aug 2026 — present · School of Medicine, Nazarbayev University</p>
   <h2 class="dossier__title" id="dossier-title">Opportunistic osteoporosis &amp; sarcopenia screening from routine CT</h2>
   <p class="dossier__lead">
     Millions of abdominal and spine CT scans are taken for other reasons. The same scans already
@@ -305,7 +304,7 @@
 </template>
 
 <template id="case-pollen">
-  <p class="label">Case 03 · 2025–2026 · MSc thesis · Palaeoecology Research Group, ELTE</p>
+  <p class="label">Case 3 · 2025–2026 · MSc thesis · Palaeoecology Research Group, ELTE</p>
   <h2 class="dossier__title" id="dossier-title">An automated microscope that counts fossil pollen</h2>
   <p class="dossier__lead">
     Pollen counts from lake sediments are how we reconstruct past climate, and they are still
@@ -358,7 +357,7 @@
 </template>
 
 <template id="case-safecam">
-  <p class="label">Case 02 · 2026 · Personal project</p>
+  <p class="label">Case 2 · 2026 · Personal project</p>
   <h2 class="dossier__title" id="dossier-title">Safe Camera: real-time violence detection across 8 streams</h2>
   <p class="dossier__lead">
     A video classifier is easy to demo and hard to deploy: false alarms per camera-hour matter more than
@@ -399,7 +398,7 @@
 </template>
 
 <template id="case-passport">
-  <p class="label">Case 01 · April 2026 · Big Berlin Hackathon · team project</p>
+  <p class="label">Case 1 · April 2026 · Big Berlin Hackathon · team project</p>
   <h2 class="dossier__title" id="dossier-title">Health Passport AI</h2>
   <p class="dossier__lead">
     Travelling or living abroad means carrying medical records in the wrong language and the wrong format.
@@ -415,6 +414,6 @@
   <p class="links"><a href="https://github.com/zariness00/Health_travel_passport" target="_blank" rel="noopener">GitHub repository ↗</a></p>
 </template>
 
-<script src="main.js?v=6"></script>
+<script src="main.js?v=7"></script>
 </body>
 </html>
