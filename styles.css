@@ -325,8 +325,7 @@ mark { background: none; color: var(--accent); font-weight: 400; }
   max-width: var(--max); margin: 0 auto;
   padding: clamp(100px, 14vw, 180px) var(--gutter) 80px; text-align: center;
 }
-.display--contact { font-size: clamp(44px, 7.5vw, 104px); line-height: 1.02; margin: 10px 0 24px; }
-.contact__lead { color: var(--ink-2); margin: 0 0 40px; }
+.display--contact { font-size: clamp(44px, 7.5vw, 104px); line-height: 1.02; margin: 10px 0 48px; }
 .contact__links { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 32px; }
 .contact__links a { font: 400 14px var(--mono); color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 4px; transition: color .2s, border-color .2s; }
 .contact__links a:hover { color: var(--accent); border-color: var(--accent); }
