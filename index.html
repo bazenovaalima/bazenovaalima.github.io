@@ -25,7 +25,6 @@
     <a href="#notebook">Experience</a>
     <a href="#contact">Contact</a>
   </nav>
-  <a class="nav__cv" href="assets/docs/Alima_Bazenova_CV.pdf" target="_blank" rel="noopener">CV&nbsp;↓</a>
 </header>
 
 <main>
@@ -48,7 +47,6 @@
         <a class="btn btn--solid" href="#archive">Open the archive</a>
         <a class="btn" href="assets/docs/Alima_Bazenova_CV.pdf" target="_blank" rel="noopener">Download CV</a>
       </div>
-      <p class="hero__status">Currently looking for computer vision roles and PhD positions.</p>
     </div>
 
     <!-- Lanyard badge -->
@@ -83,11 +81,9 @@
 
   <!-- ============ ABOUT ============ -->
   <section class="section about" id="about">
-    <div class="section__head">
-      <h2 class="title">Why a biologist<br>builds <em class="accent">vision</em> models.</h2>
-    </div>
     <div class="about__grid">
       <div class="about__body">
+        <h2 class="title">Why a biologist<br>builds <em class="accent">vision</em> models.</h2>
         <p>
           I started in biology (BSc, Nazarbayev University) and moved into machine learning
           through my MSc at Eötvös Loránd University, where I built an automated microscope
@@ -100,28 +96,21 @@
           building a deep-learning pipeline that screens routine lumbar-spine CT for
           osteoporosis and sarcopenia.
         </p>
-        <p>
-          A thread through all of my projects: <strong>evaluation that holds up</strong>.
-          Leakage-free splits, comparisons to expert counts on independent material,
-          statistical tests, and reporting the negative results too.
-        </p>
       </div>
-      <aside class="about__side">
-        <h3>Education</h3>
-        <p>
-          MSc Environmental Sciences<br>
-          <span>Eötvös Loránd University, Budapest, 2024–2026. GPA 4.9 out of 5.</span>
-        </p>
-        <p>
-          BSc Biological Sciences<br>
-          <span>Nazarbayev University, Astana, 2020–2024. GPA 3.6 out of 4.</span>
-        </p>
-        <h3>What I want to work on</h3>
-        <p class="about__want">
-          Segmentation and detection in medical and scientific images, especially where data is
-          small, labels are expensive, and the model has to agree with a human expert before
-          anyone will use it.
-        </p>
+      <aside class="edu" aria-label="Education">
+        <h3 class="edu__heading">Education</h3>
+        <div class="edu__item">
+          <span class="edu__years">2024 – 2026</span>
+          <h4>MSc Environmental Sciences</h4>
+          <p>Eötvös Loránd University, Budapest</p>
+          <p class="edu__note">GPA 4.9 / 5.0 · Thesis on automated pollen detection</p>
+        </div>
+        <div class="edu__item">
+          <span class="edu__years">2020 – 2024</span>
+          <h4>BSc Biological Sciences</h4>
+          <p>Nazarbayev University, Astana</p>
+          <p class="edu__note">GPA 3.6 / 4.0</p>
+        </div>
       </aside>
     </div>
   </section>
@@ -141,7 +130,6 @@
           <span class="folder__status">In progress</span>
           <span class="folder__title">Opportunistic osteoporosis &amp; sarcopenia screening from CT</span>
           <span class="folder__meta">Segmentation · 3D CT · 280 patients</span>
-          <span class="folder__metric"><b>0.89</b> mean Dice</span>
         </span>
       </button>
 
@@ -152,7 +140,6 @@
           <span class="folder__status">MSc thesis · paper in submission</span>
           <span class="folder__title">Automated microscope &amp; live fossil-pollen detection</span>
           <span class="folder__meta">Detection · YOLO / RT-DETR · hardware</span>
-          <span class="folder__metric"><b>r = 0.86</b> vs expert</span>
         </span>
       </button>
 
@@ -163,7 +150,6 @@
           <span class="folder__status">Open source</span>
           <span class="folder__title">Safe Camera: multi-stream violence detection</span>
           <span class="folder__meta">Action recognition · R3D-18 · real time</span>
-          <span class="folder__metric"><b>4×</b> fewer false alarms</span>
         </span>
       </button>
 
@@ -174,7 +160,6 @@
           <span class="folder__status">Big Berlin Hackathon</span>
           <span class="folder__title">Health Passport AI</span>
           <span class="folder__meta">Document AI · Gemini API · FastAPI</span>
-          <span class="folder__metric"><b>PDF → doctor</b> summary</span>
         </span>
       </button>
     </div>
