@@ -325,14 +325,8 @@ mark { background: none; color: var(--accent); font-weight: 400; }
   max-width: var(--max); margin: 0 auto;
   padding: clamp(100px, 14vw, 180px) var(--gutter) 80px; text-align: center;
 }
-.contact .title { margin-bottom: 36px; }
-.contact__email {
-  display: inline-block; font: 400 clamp(28px, 4.6vw, 60px)/1.1 var(--serif); color: var(--ink);
-  text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-bottom: 40px;
-  transition: color .2s, border-color .2s; overflow-wrap: anywhere;
-}
+.contact .title { margin-bottom: 44px; }
 .contact__links .arr { font: 300 .8em var(--sans); }
-.contact__email:hover { color: var(--accent); border-color: var(--accent); }
 .contact__links { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px 44px; }
 .contact__links a { font: 400 clamp(20px, 2.2vw, 26px) var(--serif); color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 4px; transition: color .2s, border-color .2s; }
 .contact__links a:hover { color: var(--accent); border-color: var(--accent); }
@@ -424,6 +418,8 @@ body.no-scroll { overflow: hidden; }
   .dossier__sheet { margin: 48px auto 16px; }
 }
 @media (max-width: 460px) {
+  .contact__links { gap: 12px 22px; }
+  .contact__links a { font-size: 19px; }
   .facts { grid-template-columns: 1fr; }
   .facts div + div { border-left: 0; border-top: 1px solid var(--line); }
 }
