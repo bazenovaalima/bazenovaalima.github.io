@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="styles.css?v=9">
 </head>
 <body>
 
@@ -85,16 +85,22 @@
       <div class="about__body">
         <h2 class="title">Why a biologist<br>builds <em class="accent">vision</em> models.</h2>
         <p>
-          I started in biology (BSc, Nazarbayev University) and moved into machine learning
-          through my MSc at Eötvös Loránd University, where I built an automated microscope
-          that scans slides and detects fossil pollen live. That background shapes how I work:
-          I know what the expert on the other side of the model needs, and I check results
-          against them rather than against a leaderboard.
+          I studied biology, so most of my early work happened in labs, looking through
+          microscopes and counting things by hand. During my master's in Budapest I joined
+          a palaeoecology group where people count fossil pollen grain by grain to work out
+          what the climate was like thousands of years ago. It takes hours per slide.
+          I kept thinking a model could do the counting, and the expert could spend that
+          time on the actual science.
         </p>
         <p>
-          Right now I am a research assistant at Nazarbayev University School of Medicine,
-          building a deep-learning pipeline that screens routine lumbar-spine CT for
-          osteoporosis and sarcopenia.
+          So I built it: a microscope that moves the slide on its own and a detector that
+          finds the pollen as it scans. That project is how I got into computer vision.
+          After that I spent a summer at Green Eye working on video, and now I'm back with
+          medical data, teaching a model to read spine CT scans for signs of osteoporosis.
+        </p>
+        <p>
+          Starting in biology still helps. I know what the data looks like from the
+          expert's side, and I don't trust a number until it matches what they see.
         </p>
       </div>
       <aside class="edu" aria-label="Education">
@@ -236,14 +242,12 @@
 
   <!-- ============ CONTACT ============ -->
   <section class="contact" id="contact">
-    <h2 class="display display--contact">
-      Teaching machines<br>to <em class="accent">see</em> science.
-    </h2>
+    <h2 class="title">Get in touch.</h2>
+    <a class="contact__email" href="mailto:bazenovaalima@gmail.com">bazenovaalima@gmail.com</a>
     <div class="contact__links">
-      <a href="mailto:bazenovaalima@gmail.com">bazenovaalima@gmail.com</a>
-      <a href="https://www.linkedin.com/in/alimabazenova/" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="https://github.com/bazenovaalima" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="assets/docs/Alima_Bazenova_CV.pdf" target="_blank" rel="noopener">CV (PDF) ↓</a>
+      <a href="https://www.linkedin.com/in/alimabazenova/" target="_blank" rel="noopener">LinkedIn <span class="arr">↗</span></a>
+      <a href="https://github.com/bazenovaalima" target="_blank" rel="noopener">GitHub <span class="arr">↗</span></a>
+      <a href="assets/docs/Alima_Bazenova_CV.pdf" target="_blank" rel="noopener">CV <span class="arr">↓</span></a>
     </div>
   </section>
 </main>
@@ -413,6 +417,6 @@
   <p class="links"><a href="https://github.com/zariness00/Health_travel_passport" target="_blank" rel="noopener">GitHub repository ↗</a></p>
 </template>
 
-<script src="main.js?v=8"></script>
+<script src="main.js?v=9"></script>
 </body>
 </html>
