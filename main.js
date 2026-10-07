@@ -79,7 +79,7 @@
 
 // ===== Scroll reveal =====
 (() => {
-  const els = document.querySelectorAll('.section__head, .about__grid, .folder, .log__entry, .pub, .bench__col, .contact > *');
+  const els = document.querySelectorAll('.section__head, .about__grid, .folder, .log__entry, .pub, .skills, .contact > *');
   els.forEach((el) => el.classList.add('reveal'));
   if (!('IntersectionObserver' in window)) { els.forEach((el) => el.classList.add('is-in')); return; }
   const io = new IntersectionObserver((entries) => {

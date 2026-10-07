@@ -33,7 +33,7 @@
   <!-- ============ HERO ============ -->
   <section class="hero" id="top">
     <div class="hero__text">
-      <p class="label">ML Engineer · Computer Vision · Scientific &amp; Medical Imaging</p>
+      <p class="hero__kicker">ML engineer, Astana</p>
       <h1 class="display">
         <span class="accent">Alima</span><br>Bazenova
       </h1>
@@ -48,7 +48,7 @@
         <a class="btn btn--solid" href="#archive">Open the archive</a>
         <a class="btn" href="assets/docs/Alima_Bazenova_CV.pdf" target="_blank" rel="noopener">Download CV</a>
       </div>
-      <p class="hero__status"><span class="dot"></span> Open to ML / CV engineering roles and PhD positions in computer vision</p>
+      <p class="hero__status">Currently looking for computer vision roles and PhD positions.</p>
     </div>
 
     <!-- Lanyard badge -->
@@ -84,7 +84,6 @@
   <!-- ============ ABOUT ============ -->
   <section class="section about" id="about">
     <div class="section__head">
-      <p class="label">§ 01 — About</p>
       <h2 class="title">Why a biologist<br>builds <em class="accent">vision</em> models.</h2>
     </div>
     <div class="about__grid">
@@ -108,26 +107,21 @@
         </p>
       </div>
       <aside class="about__side">
-        <div class="card">
-          <p class="label">Research interests</p>
-          <ul class="tags">
-            <li>Medical image segmentation</li>
-            <li>Object detection</li>
-            <li>Scientific imaging</li>
-            <li>Video understanding</li>
-            <li>Robust evaluation</li>
-            <li>Dataset construction</li>
-          </ul>
-        </div>
-        <div class="card">
-          <p class="label">Education</p>
-          <dl class="edu">
-            <dt>MSc Environmental Sciences</dt>
-            <dd>Eötvös Loránd University, Budapest · 2024–2026 · CGPA 4.9/5.0</dd>
-            <dt>BSc Biological Sciences</dt>
-            <dd>Nazarbayev University, Astana · 2020–2024 · CGPA 3.6/4.0</dd>
-          </dl>
-        </div>
+        <h3>Education</h3>
+        <p>
+          MSc Environmental Sciences<br>
+          <span>Eötvös Loránd University, Budapest, 2024–2026. GPA 4.9 out of 5.</span>
+        </p>
+        <p>
+          BSc Biological Sciences<br>
+          <span>Nazarbayev University, Astana, 2020–2024. GPA 3.6 out of 4.</span>
+        </p>
+        <h3>What I want to work on</h3>
+        <p class="about__want">
+          Segmentation and detection in medical and scientific images, especially where data is
+          small, labels are expensive, and the model has to agree with a human expert before
+          anyone will use it.
+        </p>
       </aside>
     </div>
   </section>
@@ -135,9 +129,8 @@
   <!-- ============ ARCHIVE (folders) ============ -->
   <section class="section archive" id="archive">
     <div class="section__head">
-      <p class="label">§ 02 — Case archive</p>
       <h2 class="title">Selected <em class="accent">work</em>,<br>filed by case.</h2>
-      <p class="section__note">Each folder is a project. Open one to see the problem, the method, the numbers and the figures.</p>
+      <p class="section__note">Four projects, newest first. Click a folder to open it.</p>
     </div>
 
     <div class="shelf">
@@ -145,7 +138,7 @@
         <span class="folder__tab">CASE 04 · 2026</span>
         <span class="folder__paper"><img src="assets/img/ct_seg_001.jpg" alt="" loading="lazy"></span>
         <span class="folder__body">
-          <span class="folder__status"><span class="dot"></span>In progress</span>
+          <span class="folder__status">In progress</span>
           <span class="folder__title">Opportunistic osteoporosis &amp; sarcopenia screening from CT</span>
           <span class="folder__meta">Segmentation · 3D CT · 280 patients</span>
           <span class="folder__metric"><b>0.89</b> mean Dice</span>
@@ -190,7 +183,6 @@
   <!-- ============ LAB NOTEBOOK (experience) ============ -->
   <section class="section notebook" id="notebook">
     <div class="section__head">
-      <p class="label">§ 03 — Lab notebook</p>
       <h2 class="title">Where I've <em class="accent">worked</em>.</h2>
     </div>
 
@@ -198,8 +190,8 @@
       <li class="log__entry">
         <div class="log__date">Aug 2026 — now</div>
         <div class="log__main">
-          <h3>Research Assistant · AI for Clinical CT Imaging</h3>
-          <p class="log__org">School of Medicine, Nazarbayev University · PI Dr. Srinivasa Bolla</p>
+          <h3>Research Assistant, AI for Clinical CT Imaging</h3>
+          <p class="log__org">School of Medicine, Nazarbayev University. Supervisor: Dr. Srinivasa Bolla</p>
           <ul>
             <li>Deep-learning pipeline for opportunistic osteoporosis and sarcopenia screening from routine lumbar-spine CT, linking L3 psoas biomarkers to DXA bone mineral density in 280 patients.</li>
             <li>Automated vertebra and psoas segmentation on a multi-vendor cohort (5 manufacturers): baseline mean Dice <mark>0.89</mark> against expert-corrected masks.</li>
@@ -209,8 +201,8 @@
       <li class="log__entry">
         <div class="log__date">Sep 2025 — Jul 2026</div>
         <div class="log__main">
-          <h3>Research Assistant · Automated Microscopy &amp; Image Analysis</h3>
-          <p class="log__org">Palaeoecology Research Group, Eötvös Loránd University · PI Dr. Enikő Magyari</p>
+          <h3>Research Assistant, Automated Microscopy</h3>
+          <p class="log__org">Palaeoecology Research Group, Eötvös Loránd University. Supervisor: Dr. Enikő Magyari</p>
           <ul>
             <li>Automated microscope-scanning and live-detection workflow replacing manual slide counting (<mark>75% faster</mark>).</li>
             <li>Released a 22-class detection dataset (3,001 images, 8,460 boxes); benchmarked 7 CNN / transformer detectors across 21 runs under a leakage-free depth-based split.</li>
@@ -221,7 +213,7 @@
       <li class="log__entry">
         <div class="log__date">May — Aug 2025</div>
         <div class="log__main">
-          <h3>Junior ML Engineer · Video Behaviour Recognition</h3>
+          <h3>Junior ML Engineer, Video Behaviour Recognition</h3>
           <p class="log__org">Green Eye Ltd</p>
           <ul>
             <li>Built a 6-class behaviour dataset (~20K labelled frames / clips); benchmarked 10+ CV approaches and 15+ transfer-learning configurations by precision, recall, macro-F1 and confusion matrices.</li>
@@ -230,8 +222,8 @@
       </li>
     </ol>
 
-    <div class="pub card">
-      <p class="label">Publication</p>
+    <div class="pub">
+      <h3>Publication</h3>
       <p>
         Khamkhash, L., <strong>Bazenova, A.</strong>, Rustembekkyzy, K., Balarabe, B. Y. Y., &amp; Atabaev, T. S. (2025).
         Microwave-assisted synthesis of Gr–ZnO nanorods for solar photocatalytic removal of methylene blue.
@@ -244,40 +236,22 @@
   <!-- ============ INSTRUMENTS (skills) ============ -->
   <section class="section instruments" id="skills">
     <div class="section__head">
-      <p class="label">§ 04 — Instruments</p>
-      <h2 class="title">The <em class="accent">bench</em>.</h2>
+      <h2 class="title">What I work with.</h2>
     </div>
-    <div class="bench">
-      <div class="bench__col">
-        <h3>Vision</h3>
-        <ul>
-          <li>Object detection</li><li>CT segmentation</li><li>Action recognition</li><li>Pose estimation</li><li>Real-time multi-stream video</li>
-        </ul>
-      </div>
-      <div class="bench__col">
-        <h3>Evaluation</h3>
-        <ul>
-          <li>Leakage-free validation</li><li>mAP · Dice · F1 · PR</li><li>Inter-observer agreement</li><li>ANOVA, non-parametric tests</li><li>McNemar, Bland–Altman</li>
-        </ul>
-      </div>
-      <div class="bench__col">
-        <h3>Stack</h3>
-        <ul>
-          <li>Python, PyTorch</li><li>Ultralytics, TotalSegmentator</li><li>OpenCV, SimpleITK, nibabel</li><li>NumPy, pandas</li><li>FastAPI, Git</li>
-        </ul>
-      </div>
-      <div class="bench__col">
-        <h3>Data</h3>
-        <ul>
-          <li>Dataset design &amp; annotation QC</li><li>DICOM → NIfTI pipelines</li><li>Microscope automation</li><li>RTSP stream handling</li>
-        </ul>
-      </div>
-    </div>
+    <dl class="skills">
+      <dt>Vision</dt>
+      <dd>Object detection, CT segmentation, action recognition, pose estimation, real-time multi-stream video.</dd>
+      <dt>Evaluation</dt>
+      <dd>Leakage-free validation, mAP / Dice / F1, inter-observer agreement, ANOVA and non-parametric tests, McNemar, Bland–Altman.</dd>
+      <dt>Code</dt>
+      <dd>Python, PyTorch, Ultralytics, TotalSegmentator, OpenCV, SimpleITK, nibabel, NumPy, pandas, FastAPI, Git.</dd>
+      <dt>Data</dt>
+      <dd>Dataset design and annotation QC, DICOM to NIfTI pipelines, microscope automation, RTSP streams.</dd>
+    </dl>
   </section>
 
   <!-- ============ CONTACT ============ -->
   <section class="contact" id="contact">
-    <p class="label">§ 05 — Contact</p>
     <h2 class="display display--contact">
       Teaching machines<br>to <em class="accent">see</em> science.
     </h2>
