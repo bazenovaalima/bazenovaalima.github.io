@@ -315,10 +315,10 @@ mark { background: none; color: var(--accent); font-weight: 400; }
 .pub a { color: var(--accent); text-decoration: none; font-family: var(--mono); font-size: 13px; }
 
 /* ---------------- SKILLS ---------------- */
-.skills { display: grid; grid-template-columns: 160px 1fr; margin: 0; border-top: 1px solid var(--line); }
-.skills dt, .skills dd { padding: 18px 0; border-bottom: 1px solid var(--line); margin: 0; }
-.skills dt { font: italic 400 21px var(--serif); color: var(--ink); }
-.skills dd { color: var(--ink-2); font-size: 17px; }
+.skills { display: grid; grid-template-columns: 180px 1fr; margin: 0; border-top: 1px solid var(--line); }
+.skills dt, .skills dd { margin: 0; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.skills dt { font: 500 11.5px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); padding-top: 21px; }
+.skills dd { color: var(--ink-2); font-size: 17px; line-height: 1.5; }
 
 /* ---------------- CONTACT ---------------- */
 .contact {
@@ -403,8 +403,8 @@ body.no-scroll { overflow: hidden; }
   .about__grid { grid-template-columns: 1fr; gap: 32px; }
   .edu { padding-top: 0; }
   .skills { grid-template-columns: 1fr; }
-  .skills dt { border-bottom: 0; padding-bottom: 4px; }
-  .skills dd { padding-top: 0; }
+  .skills dt { border-bottom: 0; padding-bottom: 2px; }
+  .skills dd { padding-top: 4px; }
   .facts { grid-template-columns: 1fr 1fr; }
   .facts div:nth-child(3) { border-left: 0; }
   .facts div:nth-child(n+3) { border-top: 1px solid var(--line); }
